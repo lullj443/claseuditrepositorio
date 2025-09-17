@@ -16,7 +16,7 @@ html {
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 	color: #333;
-	background-color: #fff;
+	background-color: #f4c3c3;
 	margin: 0;
 	padding: 0;
 }
@@ -62,23 +62,23 @@ main {
 
 /* Header */
 header {
-	background: #f8f9fa;
+	background: #92c7fc;
 	padding: 1rem 0;
 	border-bottom: 1px solid #e9ecef;
 }
 
 /* Footer */
 footer {
-	background: #f8f9fa;
+	background: #6c757e;
 	padding: 2rem 0;
 	margin-top: 4rem;
 	border-top: 1px solid #e9ecef;
 	font-size: 0.875rem;
-	color: #6c757d;
+	color: #ffffff;
 }
 
 footer a {
-	color: #007bff;
+	color: #96c9ff;
 	text-decoration: none;
 }
 
