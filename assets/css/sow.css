@@ -9,7 +9,9 @@ nav {
 }
 nav ul {
   list-style: none;
-  margin: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 20%vw;
   padding: 0;
   display: flex;
 }
@@ -48,7 +50,7 @@ nav ul li a:focus {
     width: 0;
   }
   to {
-    width: 50%;
+    width: 45%;
   }
 }
 @keyframes blink-caret {
