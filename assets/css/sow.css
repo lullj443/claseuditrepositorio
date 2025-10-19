@@ -1,6 +1,12 @@
 header {
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  align-content: center;
+  padding: 2rem 2rem;
+  justify-content: center;
 }
 nav {
   position: sticky;
@@ -9,12 +15,12 @@ nav {
 }
 nav ul {
   list-style: none;
-  margin: 4rem;
+  margin: 0;
   padding: 0;
   display: flex;
 }
 nav ul li {
-  margin-right: 2rem;
+  margin-right: 6rem;
 }
 nav ul li a {
   text-decoration: none;
@@ -35,6 +41,7 @@ nav ul li a:focus {
   height: 100vh;
   background: #222;
   color: #fff;
+  max-width: 100vw;
 }
 .title {
   overflow: hidden;
@@ -45,17 +52,22 @@ nav ul li a:focus {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 @keyframes typing {
   from {
     width: 0;
   }
   to {
-    width: 45%;
+    width: 30%;
   }
 }
 @keyframes blink-caret {
   50% {
     border-color: transparent;
   }
+}
+.textcenter {
+  text-align: center;
+  justify-content: center;
 }
