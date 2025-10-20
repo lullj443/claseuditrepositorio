@@ -80,13 +80,21 @@ nav ul li a:focus {
   font-weight: 900;
   font-style: normal;
   font-variation-settings: "SOFT" 100, "WONK" 1;
-  font-size: clamp(1.1rem, 2.5vw, 2.5rem);
+  font-size: clamp(1.1rem, 3vw, 3.5rem);
 }
 
 /* 🧠 Responsive override: allow wrapping on small screens */
 @media (max-width: 1333px) {
   .title {
     white-space: normal;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%;
+    }
   }
 }
 
@@ -172,7 +180,7 @@ nav ul li a:focus {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-size: clamp(0.9rem, 4vw, 1.25rem);
   margin: 0;
   padding: 0rem 2rem 0rem 2rem;
   flex: 1 1 50%;
