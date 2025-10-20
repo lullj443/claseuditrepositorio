@@ -13,10 +13,6 @@ header {
   width: 100%;
   height: clamp(6rem, 10vh, 12rem);
 }
-.rojo {
-  color: rgb(187, 74, 74);
-  font-size: clamp(3rem, 6vw, 7rem);
-}
 
 main {
   background: #fff;
@@ -138,11 +134,14 @@ nav ul li a:focus {
   font-weight: 900;
   font-style: normal;
   font-variation-settings: "SOFT" 100, "WONK" 1;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 4vw, 6rem);
+  line-height: clamp(2rem, 6vw, 8rem);
   margin: 0;
 }
-
+.rojo {
+  color: rgb(187, 74, 74);
+  font-size: clamp(3rem, 8vw, 10rem);
+}
 .subtitulo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -168,15 +167,17 @@ nav ul li a:focus {
   padding: 0rem 2rem 0rem 2rem;
   flex: 1 1 50%;
 }
-.cuerpopequegnoconimagen {
+
+.letritapequegna {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(0.9rem, 1vw, 1.5rem);
+  font-size: clamp(0.9rem, 1vw, 1rem);
   margin: 0;
-  padding: 0rem 3rem 0rem 3rem;
+  padding: 0rem 2rem 0rem 2rem;
   flex: 1 1 50%;
 }
+
 .cuerpolink {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
@@ -199,7 +200,7 @@ nav ul li a:focus {
 }
 
 .separador {
-  padding-bottom: clamp(1rem, 3vh, 4rem);
+  padding-bottom: clamp(2rem, 3vh, 4rem);
 }
 
 .row {
@@ -209,18 +210,18 @@ nav ul li a:focus {
   align-items: center;
   align-content: center;
   gap: 1vw;
-  padding: 0;
+  padding: 2rem 0 2rem 0;
 }
 
 @media (max-width: 650px) {
   .row {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
 .imagen {
-  width: clamp(25rem, 40vw, 60rem);
+  width: clamp(20rem, 40vw, 60rem);
   height: auto;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 2rem 3rem 2rem 3rem;
   flex: 1 1 40%;
 }
