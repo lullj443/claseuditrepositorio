@@ -163,6 +163,7 @@ nav ul li a:focus {
   font-size: clamp(0.9rem, 1vw, 1.5rem);
   margin: 0;
   padding: 0rem 2rem 0rem 2rem;
+  flex: 1 1 50%;
 }
 
 .cuerpolink {
@@ -186,13 +187,21 @@ nav ul li a:focus {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  gap: 2vw;
 }
 @media (max-width: 650px) {
   .row {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
+}
+.imagen {
+  width: clamp(20rem, 40vw, 60rem);
+  height: auto;
+  padding: 2rem;
+  flex: 1 1 40%;
 }
