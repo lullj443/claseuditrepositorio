@@ -83,34 +83,35 @@ nav ul li a:focus {
   font-size: clamp(1.1rem, 3vw, 3.5rem);
 }
 
-/* 🧠 Responsive override: allow wrapping on small screens */
-@media (max-width: 1333px) {
-  .title {
-    white-space: normal;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 30%;
-    }
-  }
-}
-
 @keyframes typing {
   from {
     width: 0;
   }
   to {
-    width: 30%;
+    width: 24%;
   }
 }
 @keyframes blink-caret {
   50% {
     border-color: transparent;
   }
+
+  /* 🧠 Responsive override: allow wrapping on small screens */
 }
+@media (max-width: 2823px) {
+  .title {
+    font-size: clamp(1.1rem, 3vw, 3rem);
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: clamp(20%vw, 20%vw, 21%);
+    }
+  }
+}
+
 .centered {
   justify-content: center;
   align-items: center;
