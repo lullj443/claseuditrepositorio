@@ -7,11 +7,11 @@ header {
   padding: 1rem 1rem 1rem 1.5rem;
   justify-content: center;
   margin: 0;
-  border-bottom: 3px solid rgb(197, 94, 94);
+  border-bottom: 3px solid rgb(187, 74, 74);
   width: 100%;
 }
 .rojo {
-  color: rgb(197, 94, 94);
+  color: rgb(187, 74, 74);
   font-size: clamp(3rem, 6vw, 4rem);
 }
 
@@ -33,6 +33,7 @@ footer {
 
 .sectiontitulo {
   padding: 2.5rem 0rem 2rem 0rem;
+  scroll-margin-top: clamp(10vh, 8vh, 10rem); /* Adjust to your layout */
 }
 
 nav {
@@ -58,7 +59,7 @@ html {
 }
 nav ul li a:hover,
 nav ul li a:focus {
-  color: rgb(197, 94, 94);
+  color: rgb(187, 74, 74);
   outline: none;
 }
 .cover {
@@ -172,6 +173,7 @@ nav ul li a:focus {
   margin: 0;
   padding: 2rem 0rem 0rem 0rem;
   line-height: 0;
+  color: rgb(187, 74, 74);
 }
 
 .second {
