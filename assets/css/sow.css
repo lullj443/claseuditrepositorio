@@ -407,7 +407,7 @@ nav ul li a:focus {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 1rem;
-  padding: 0rem 2rem 0rem 2rem;
+  padding: 2rem;
   width: 100%;
   scroll-behavior: smooth;
   anchor-name: --carrusel;
@@ -451,12 +451,13 @@ nav ul li a:focus {
 .tarjeta {
   aspect-ratio: 5/3;
   scroll-snap-align: start;
-  background: #818181;
+  background: transparent;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0rem;
   text-align: center;
   align-content: center;
   flex: 0 0 100%;
+  max-width: clamp(15rem, 80vw, 40rem);
 }
 
 @media (min-width: 600px) {
