@@ -121,6 +121,7 @@ body {
   background-image: url("https://ik.imagekit.io/llj/over-the-garden-wall-image-5.webp?updatedAt=1762353720371");
   text-align: center;
   padding: 2rem;
+  background-position: center;
 }
 
 .hero h1 {
@@ -131,6 +132,19 @@ body {
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1s ease forwards;
+}
+
+.blur-under-text {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 0.4) 0%,
+    /* darker in center */ rgba(104, 104, 104, 0) 80% /* lighter at edges */
+  );
+  padding: clamp(1rem, 2vw, 2rem);
+  border-radius: 100px;
 }
 
 .hero p {
